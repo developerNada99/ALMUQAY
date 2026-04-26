@@ -17,12 +17,12 @@ const Images = () => {
         
 
         {/* المحتوى: صور على الشمال + نص على اليمين */}
-        <div className="flex flex-col  lg:flex-row gap-8 lg:gap-12 max-lg:flex-col-reverse items-center">
+        <div className="flex flex-col  lg:flex-row gap-8 lg:gap-12 max-lg:flex-col items-center">
           
           {/* الجهة اليمنى - النص */}
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 3 }}
             viewport={{ once: true }}
             className="w-full lg:w-1/2 text-center lg:text-right"
@@ -44,8 +44,8 @@ const Images = () => {
 
           {/* الجهة اليسرى - 3 صور بأطوال مختلفة */}
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: -30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 3 }}
             viewport={{ once: true }}
             className="w-full lg:w-1/2"

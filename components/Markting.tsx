@@ -21,8 +21,8 @@ const Marketing = () => {
           
           {/* قسم الصورة */}
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 2 }}
             viewport={{ once: true }}
             className="w-full lg:w-1/2"
@@ -40,8 +40,8 @@ const Marketing = () => {
 
           {/* قسم النص */}
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: -30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 2 }}
             viewport={{ once: true }}
             className="w-full lg:w-1/2 space-y-4 text-center lg:text-right"
