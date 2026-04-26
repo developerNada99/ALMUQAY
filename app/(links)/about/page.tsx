@@ -45,7 +45,7 @@ const About = () => {
               <div className="absolute top-0 right-0 w-[40%] aspect-square 
                               rounded-2xl overflow-hidden shadow-lg rotate-6">
                 <Image
-                  src="/about.jfif"
+                  src="/buy.jfif"
                   alt="عقار"
                   fill
                   priority
