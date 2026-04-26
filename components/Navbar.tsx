@@ -40,7 +40,7 @@ export default function Navbar() {
             <span className={`${cairo.className} font-bold text-2xl sm:text-3xl md:text-4xl text-[#7ea9c9]`}>
               المقيبل
             </span>
-            <span className={`${cairo.className} font-semibold text-[10px] sm:text-xs md:text-sm tracking-[0.4em]`}>
+            <span className={`${cairo.className} font-semibold text-[10px] text-gray-900 sm:text-xs md:text-sm tracking-[0.4em]`}>
               ALMUQAYBL
             </span>
           </Link>

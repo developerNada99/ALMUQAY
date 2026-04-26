@@ -55,7 +55,7 @@ const Images = () => {
               {/* الصورة الأولى - طويلة */}
               <div className="relative w-1/3 h-80 sm:h-96 rounded-2xl overflow-hidden shadow-lg">
                 <Image
-                  src="/img1.jfif"
+                  src="/img1.png"
                   alt="عقار 1"
                   fill
                   sizes="(max-width: 640px) 33vw, (max-width: 768px) 25vw, 20vw"
@@ -66,7 +66,7 @@ const Images = () => {
               {/* الصورة الثانية - متوسطة */}
               <div className="relative w-1/3 h-64 sm:h-72 rounded-2xl overflow-hidden shadow-lg mt-8">
                 <Image
-                  src="/img2.jfif"
+                  src="/img2.png"
                   alt="عقار 2"
                   fill
                   sizes="(max-width: 640px) 33vw, (max-width: 768px) 25vw, 20vw"
