@@ -68,7 +68,7 @@ export default function Navbar() {
           {/* mobile button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-2xl"
+            className="md:hidden text-2xl text-gray-900"
           >
             ☰
           </button>
