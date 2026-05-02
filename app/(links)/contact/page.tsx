@@ -16,7 +16,7 @@ const Contact = () => {
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\+/g, '')}`;
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 bg-[#f9f6ec]" dir="rtl">
+    <section className="py-12 h-screen sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 bg-[#f9f6ec]" dir="rtl">
       <div className="max-w-6xl mx-auto">
         
         {/* عنوان القسم */}
